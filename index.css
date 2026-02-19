@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --sage: #7C9B7F;
+  --sage-light: #E8EDE8;
+  --sage-mid: #B5C9B7;
+  --dusty: #5B7A5E;
+  --dusty-dark: #3D5C40;
+  --beige: #F5EFE0;
+  --beige-dark: #EDE5CF;
+  --beige-deeper: #E0D5BC;
+  --gold: #C9A84C;
+  --gold-light: #F0E0A8;
+  --gold-muted: #D4B96A;
+  --dark: #3D3B30;
+  --mid: #6B6655;
+  --light: #9B9480;
+  --white: #FDFAF4;
+  --shadow: rgba(61,59,48,0.10);
+  --shadow-lg: rgba(61,59,48,0.18);
+}
+
+html { height: 100%; }
+body {
+  font-family: 'Jost', sans-serif;
+  background: var(--beige);
+  color: var(--dark);
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+#root { height: 100%; }
+
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--beige-deeper); border-radius: 3px; }
